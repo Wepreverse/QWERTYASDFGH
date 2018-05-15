@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+	background:#2c3539;
+	color: white;
+	padding: 10px;
+	width:100%;
+}
+html{
+	width:100%;
+}
+.menu_wrap{
+position: fixed;
+height: 100%;
+background: #3c424c;
+width:50%;
+top: 0;
+left:-50%;
+transition: 0.5s ;
+color:white;
+    border-radius: 0 0 250px 0;
+
+}
+.menu{
+	background: none;
+	box-shadow: none;
+}
+.menu-item{
+	border-bottom: 1px solid gray;
+	text-align:center;
+	padding: 10px;
+}
+.btn{
+	background: #2c3539
+}
+.text-center{
+	margin-top: 50px;
+}
+.copy{
+	margin-top: 230px;
+	text-align: center;
+	color: dimgrey
+	background: white;
+}
+.bg-success{
+	border-radius: 3px;
+	font-family: arial;
+	padding-left: 10px
+}
+.bg-primary{
+		border-radius: 3px;
+	font-family: arial;
+	padding-left: 10px;
+	margin-top: 20px
+}
+.history p{
+	margin-left: 10px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.mainRadio{
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+}
+.flex{
+	display:flex;
+}
+.start{
+	text-align: center;
+}
+.WhoGeek{
+	text-align: center;
+	margin-top: 20px;
+}
+.WhoGeek2{
+	text-align: center;
+	margin-top: 30px;
+}
+.Subculture{
+	text-align: center;
+	margin-top: 50px
+}
+.direktor{
+	text-align: center;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 0
+}
+.gif{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.money{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 0;
+	margin-top: 20px
+}
+.subculture{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 0
+}
+.video{
+	margin-top: 40px
+}
+.videoIt{
+margin-top: 40px;
+
+}
+.videoIp{
+margin-top: 40px;
+
+}
+.tab{
+margin-top: 35px
+
+}
+.otez{
+	display: none
+}
+.modal-container{
+	background: #2c3539
+}
+.samsung{
+	height:75%;
+	width:35%;
+	text-align:center;
+}
+.iphone{
+	height:75%;
+	width:30%;
+	text-align:center;
+}
+.columnsudiv{
+	width:33%;
+	margin-left:8%;
+}
+.cmprsn{
+	font-family:Arial;
+	font-size:13px;
+	border: solid white;
+	border-width:1px;
+	text-align:center;
+	width:300px;
+}

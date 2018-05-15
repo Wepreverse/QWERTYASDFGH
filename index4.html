@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="spectre.min.css">
+<link rel="stylesheet" href="spectre-exp.min.css">
+<link rel="stylesheet" href="spectre-icons.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<button class="btn">
+		<i class="icon icon-menu"></i>
+	</button>
+	<ul class="tab tab-block">
+  <li class="tab-item active tab1">
+    <a href="#">Кто такой ГИК?</a>
+  </li>
+  <li class="tab-item tab2">
+    <a href="#" class="">Субкультура</a>
+  </li>
+</ul>
+	<div class="otes">
+		<div class="h2 text-center">Кто такой 'ГИК'</div>
+	
+	<p class="WhoGeek">
+		Изначально термин «гик» относился к людям, маниакально интересующимся гаджетами и компьютерными технологиями. Позже понятие приобрело более широкий смысл и стало обозначать фанатов, поклонников, знатоков чего-либо или категорию энтузиастов, увлеченных субкультурой. По характерным признакам выделяют несколько категорий: Технари и айтишники – знают все о последних новинках информационных технологий, помешены на «компьютерном железе», не представляют свою жизнь без гаджетов. Яркие представители этой области: хакеры, программисты, робототехники, разработчики технологий.
+	</p>
+	<div class="parallax">
+  <div class="parallax-top-left" tabindex="1"></div>
+  <div class="parallax-top-right" tabindex="2"></div>
+  <div class="parallax-bottom-left" tabindex="3"></div>
+  <div class="parallax-bottom-right" tabindex="4"></div>
+  <div class="parallax-content">
+    <div class="parallax-front">
+    </div>
+    <div class="parallax-back">
+      <img src="geek.gif" class="img-responsive rounded" ...>
+    </div>
+  </div>
+</div>
+	</div>
+	<div class="otez">
+		<h2 class="Subculture">
+		Субкультура ГИКа
+	</h2>
+	<p class="WhoGeek2">
+		Субкультура гик – результат информационного развития общества. Для нее характерно непомерное увлечение цифровыми технологиями и отчуждение от социальной реальности. Для настоящего фаната не существует ничего интересного, кроме его увлечения, характерны постоянные разговоры о своем хобби, в которых их точка зрения всегда единственно верная.
+	</p>
+	<div class="parallax">
+  <div class="parallax-top-left" tabindex="1"></div>
+  <div class="parallax-top-right" tabindex="2"></div>
+  <div class="parallax-bottom-left" tabindex="3"></div>
+  <div class="parallax-bottom-right" tabindex="4"></div>
+  <div class="parallax-content">
+    <div class="parallax-front">
+    </div>
+    <div class="parallax-back">
+      <img src="subculture.jpg" class="img-responsive rounded" ...>
+    </div>
+  </div>
+</div>
+	</div>
+	
+
+	<p class="copy">
+		© Geek Gadgets 2018 - 2050
+	</p>
+	<div class="menu_wrap">
+		<ul class="menu">
+
+		</ul>
+	</div>
+	<script src = "menu.js">
+	</script>
+	<script>
+		var otes = document.querySelector('.otes');
+		var otez = document.querySelector('.otez');
+		var tab1 = document.querySelector('.tab1');
+		var tab2 = document.querySelector('.tab2');
+tab1.onclick = function(){
+otez.style.display = 'none';
+otes.style.display = 'block';
+tab1.classList.add('active');
+tab2.classList.remove('active')
+
+	}
+tab2.onclick = function(){
+otez.style.display = 'block';
+otes.style.display = 'none';
+tab2.classList.add('active')
+tab1.classList.remove('active')
+
+}
+</script>
+</body>
+</html>

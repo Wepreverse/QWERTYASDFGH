@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="spectre.min.css">
+<link rel="stylesheet" href="spectre-exp.min.css">
+<link rel="stylesheet" href="spectre-icons.min.css">
+</head>
+<body>
+<div class="flex">
+		<div class="div1">
+		<a href="index2.html" class="a1">Reviews</a>
+		</div>
+		<div class="div2">
+		<a href="index3.html" class="a2">History</a>
+		</div>
+		<div class="div3">
+		<a href="index4.html" class="a3">Contacts</a>
+		</div>
+		<div class="video-responsive video-responsive-4-3">
+</div>
+</div>
+<div class="modal" id="modal-id">
+  <a href="#close" class="modal-overlay" aria-label="Close"></a>
+  <div class="modal-container">
+    <div class="modal-header">
+      <a href="#close" class="btn btn-clear float-right" aria-label="Close"></a>
+      <div class="modal-title h5">Modal title</div>
+    </div>
+    <div class="modal-body">
+      <div class="content">
+        <!-- content here -->
+      </div>
+    </div>
+    <div class="modal-footer">
+      ...
+    </div>
+  </div>
+</div>
+
+
+<ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="radio.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="gee.jpg"></a>
+      <a href="#!name"><span class="kek">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+  <script>
+    var modal = document.querySelector('.modal');
+    var btn = document.querySelector('.kek');
+    var btnClose = document.querySelector('.btn-clear')
+    btn.onclick = function (){
+      modal.classList.add('active');
+    }
+    btnClose.onclick = function(){
+      modal.classList.remove('active')
+    }
+
+
+  </script>
+</body>
+</html>
+
